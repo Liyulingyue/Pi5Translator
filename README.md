@@ -13,6 +13,8 @@ source venv/bin/activate
 ```
 
 ## Install and deploy ERNIE 0.3B
+> Nearly all end-side devices can run Ernie 0.3B using llama.cpp. 
+
 ### Install dependencies
 Installing llama-cpp-python via pip may take a long time. If your hardware is low-end, consider using brew or building from source.
 ```bash
@@ -332,5 +334,6 @@ if __name__ == "__main__":
     window.show()
     sys.exit(app.exec())
 ```
+
 
 Run `show.py` to start the app. Ensure the OCR service and the llama.cpp server are running beforehand. After running, a camera preview will appear — point it at text and click to trigger capture, OCR, and
