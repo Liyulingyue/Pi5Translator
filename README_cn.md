@@ -13,6 +13,7 @@ source venv/bin/activate
 ```
 
 ## 安装和部署Ernie0.3B
+> 几乎所有的端侧设备都可以通过llama.cpp运行Ernie0.3B。
 ### 安装依赖
 通过pip安装 llama-cpp-python 需要消耗较长时间，如果你的硬件设备性能较低，推荐采用 brew 或从源码安装。
 ```bash
@@ -343,5 +344,6 @@ if __name__ == "__main__":
 ```
 
 运行文件 `show.py`，即可启动应用程序。确保在运行之前，已经启动了 OCR 服务和 llama.cpp 服务。
+
 
 运行后，将会看到摄像头画面，对准文字，点击屏幕即可触发翻译功能。
