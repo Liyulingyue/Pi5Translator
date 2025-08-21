@@ -229,7 +229,7 @@ class CameraApp(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("树莓派摄像头 + OCR + 翻译")
-        self.resize(800, 600)
+        self.resize(400, 240)
         
         # 初始化摄像头（RGB格式）
         self.picam2 = Picamera2()
@@ -347,3 +347,4 @@ if __name__ == "__main__":
 
 
 运行后，将会看到摄像头画面，对准文字，点击屏幕即可触发翻译功能。
+
