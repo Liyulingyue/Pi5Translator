@@ -225,7 +225,7 @@ class CameraApp(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Raspberry Pi Camera + OCR + Translation")
-        self.resize(800, 600)
+        self.resize(400, 240)
         
         # Initialize camera (RGB)
         self.picam2 = Picamera2()
@@ -337,3 +337,4 @@ if __name__ == "__main__":
 
 
 Run `show.py` to start the app. Ensure the OCR service and the llama.cpp server are running beforehand. After running, a camera preview will appear — point it at text and click to trigger capture, OCR, and
+
